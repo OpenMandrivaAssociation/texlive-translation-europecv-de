@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-europ
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 This is a "translation" of the europecv documentation.
@@ -44,7 +42,6 @@ This is a "translation" of the europecv documentation.
 %doc %{_texmfdistdir}/doc/latex/translation-europecv-de/templates/cv_template_pl.pdf
 %doc %{_texmfdistdir}/doc/latex/translation-europecv-de/templates/cv_template_pl.tex
 %doc %{_texmfdistdir}/doc/latex/translation-europecv-de/templates/publications.bib
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,5 +52,3 @@ This is a "translation" of the europecv documentation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
