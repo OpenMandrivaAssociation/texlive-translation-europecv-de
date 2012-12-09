@@ -52,3 +52,16 @@ This is a "translation" of the europecv documentation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110905-2
++ Revision: 757083
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110905-1
++ Revision: 719798
+- texlive-translation-europecv-de
+- texlive-translation-europecv-de
+- texlive-translation-europecv-de
+
