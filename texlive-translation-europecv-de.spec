@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-translation-europecv-de
 Version:	20110905
-Release:	7
+Release:	8
 Summary:	German version of europecv
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/europecv/de
