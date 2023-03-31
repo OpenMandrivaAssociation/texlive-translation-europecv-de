@@ -1,6 +1,6 @@
 Name:		texlive-translation-europecv-de
 Version:	23840
-Release:	1
+Release:	2
 Summary:	German version of europecv
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/europecv/de
