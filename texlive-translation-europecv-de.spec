@@ -3,7 +3,7 @@ Version:	23840
 Release:	2
 Summary:	German version of europecv
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/translations/europecv/de
+URL:		https://www.ctan.org/tex-archive/info/translations/europecv/de
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-europecv-de.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-europecv-de.doc.r%{version}.tar.xz
